@@ -98,7 +98,7 @@ public class Chapter3Answer{
         //Q10
         setCoffeePrice(Question10.CoffeeType.AMERICANO);
         System.out.println(String.format("가격은 %d원 입니다.", getCoffeePrice()));
-        PrintDivLine.divQuestion();
+
 
     }
 }

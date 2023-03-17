@@ -26,7 +26,6 @@ public class Chapter4Answer {
         question4.setScores(marks);
         double answer4 = question4.getAvg();
         System.out.println(answer4);
-        PrintDivLine.divQuestion();
 
     }
 
