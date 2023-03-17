@@ -9,6 +9,7 @@ public class Question3 {
         for(int i=1; i<101; i++){
             System.out.print(i+" ");
         }
+        System.out.println("");
     }
 
 }
