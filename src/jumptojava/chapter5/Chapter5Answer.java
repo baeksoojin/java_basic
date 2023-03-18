@@ -1,5 +1,9 @@
 package jumptojava.chapter5;
 
+import jumptojava.chapter5.Mineral.Bronze;
+import jumptojava.chapter5.Mineral.Gold;
+import jumptojava.chapter5.Mineral.MineralCalculator;
+import jumptojava.chapter5.Mineral.Silver;
 import jumptojava.utils.PrintDivLine;
 
 import java.util.ArrayList;
@@ -51,7 +55,14 @@ public class Chapter5Answer {
         Question6 question6 = new Question6(0);
         question6.add(3);
         System.out.println(question6.getValue());//3
+        PrintDivLine.divQuestion();
 
+        //Question7 : 기존의 코드를 인터페이스를 사용하는 것으로 변경
+        MineralCalculator mineralCalculator = new MineralCalculator();
+        mineralCalculator.add(new Gold());
+        mineralCalculator.add(new Silver());
+        mineralCalculator.add(new Bronze());
+        System.out.println("question7 result"+mineralCalculator.getValue());
 
     }
 
