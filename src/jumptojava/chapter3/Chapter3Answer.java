@@ -11,7 +11,7 @@ import static jumptojava.chapter3.Question10.setCoffeePrice;
 
 public class Chapter3Answer{
 
-    public void answer(){
+    public static void answer(){
         //Q1
         Question1 question1 = new Question1();
         System.out.println(question1.getAvg(80,75,55));

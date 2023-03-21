@@ -4,7 +4,7 @@ import jumptojava.utils.PrintDivLine;
 
 public class Chapter4Answer {
 
-    public void answer(){
+    public static void answer(){
 
         //Question1
         int answer1 = Question1.sumOf3x();

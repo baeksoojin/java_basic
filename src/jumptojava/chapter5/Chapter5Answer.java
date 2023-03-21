@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class Chapter5Answer {
 
-    public void answer(){
+    public static void answer(){
 
         //Question1 : UpgradeCalculator
         UpgradeCalculator cal1 = new UpgradeCalculator();
