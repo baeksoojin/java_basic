@@ -1,7 +1,11 @@
 import jumptojava.chapter3.*;
 import jumptojava.chapter4.Chapter4Answer;
 import jumptojava.chapter5.Chapter5Answer;
+import jumptojava.chapter6.tutorial.Console;
+import jumptojava.chapter6.tutorial.Tutorial;
 import jumptojava.utils.PrintDivLine;
+
+import java.io.IOException;
 
 public class Main {
 
@@ -18,6 +22,14 @@ public class Main {
 
         Chapter5Answer chapter5Answer = new Chapter5Answer();
         chapter5Answer.answer();
+        PrintDivLine.divChapter();
+
+        Tutorial tutorial = new Tutorial();
+        try {
+            tutorial.console();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
 
     }
