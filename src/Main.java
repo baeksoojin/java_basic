@@ -5,6 +5,7 @@ import jumptojava.chapter6.Chapter6Answer;
 import jumptojava.chapter6.tutorial.Console;
 import jumptojava.chapter6.tutorial.Tutorial;
 import jumptojava.chapter7.Chapter7Answer;
+import jumptojava.chapter8.Chapter8Answer;
 import jumptojava.utils.PrintDivLine;
 
 import java.io.IOException;
@@ -27,6 +28,8 @@ public class Main {
 
         Chapter7Answer.answer();
         PrintDivLine.divChapter();
+
+        Chapter8Answer.answer();
 
 
     }
