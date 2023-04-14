@@ -1,3 +1,4 @@
+import jumptojava.JumToJava;
 import jumptojava.chapter3.*;
 import jumptojava.chapter4.Chapter4Answer;
 import jumptojava.chapter5.Chapter5Answer;
@@ -13,23 +14,8 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("main application start");
-        Chapter3Answer.answer();
-        PrintDivLine.divChapter();
 
-        Chapter4Answer.answer();
-        PrintDivLine.divChapter();
-
-        Chapter5Answer.answer();
-        PrintDivLine.divChapter();
-
-        //Chapter6Answer.answer();
-        PrintDivLine.divChapter();
-
-        Chapter7Answer.answer();
-        PrintDivLine.divChapter();
-
-        Chapter8Answer.answer();
+        JumToJava.runJumToJava();
 
 
     }
