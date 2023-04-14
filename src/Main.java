@@ -1,3 +1,4 @@
+import baekjoon.Baekjoon;
 import jumptojava.JumToJava;
 import jumptojava.chapter3.*;
 import jumptojava.chapter4.Chapter4Answer;
@@ -15,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        JumToJava.runJumToJava();
+        Baekjoon.baekjoon();
 
 
     }
