@@ -12,7 +12,8 @@ public class BOJ11720 {
 
         int sum=0;
         for(int i=0; i<n; i++){
-            int num = Integer.parseInt(nums.substring(i,i+1));
+            //int num = Integer.parseInt(nums.substring(i,i+1));
+            int num = nums.charAt(i) - '0';
             sum += num;
         }
 
