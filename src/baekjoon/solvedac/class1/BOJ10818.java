@@ -9,7 +9,7 @@ public class BOJ10818 {
 
         int n = sc.nextInt();
 
-        int max = -1;
+        int max = -9999999;
         int min = 9999999;
 
         for(int i=0; i<n; i++){
