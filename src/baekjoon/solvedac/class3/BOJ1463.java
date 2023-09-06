@@ -16,10 +16,10 @@ public class BOJ1463 {
         dp[3] = 1;
 
         if(n == 1){
-            System.out.println(n);
+            System.out.println(0);
         }
         else if(n==2 || n==3){
-            System.out.println(n);
+            System.out.println(1);
         }
         else{
             for(int i=4; i<n+1; i++){
