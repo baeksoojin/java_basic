@@ -6,11 +6,11 @@ import java.util.Scanner;
 // 노드, 간선이 입력되고
 // a,b,cost 로 여러 줄이 입력
 
-/**
- * 0번 노드에서 갈 수 있는 최소경로를 노드 순서대로 입력
- */
+    /**
+     * 0번 노드에서 갈 수 있는 최소경로를 노드 순서대로 입력
+     */
 
-public class BOJ1504 {
+    public class BOJ1504 {
     static final int INF = 999999999;
     static final int MAX_N = 10;
     static int N,E;
